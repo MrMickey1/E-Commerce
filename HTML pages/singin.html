@@ -7,30 +7,25 @@
     <title>Sign In</title>
 </head>
 <body>
-    <div class="container">
-        <div class="container1">
-            <div class="pic">
-                <img src="\Pictures\wp7566472.jpg" alt="Welcome" >
-            </div>
-            <div class="login">
-                <form>
-                    <h3>Sign in</h3>
-                    <div class="inp">
-                        <label for="username">Username</label>
-                        <input type="text" name="username" required><br>
-                        <label for="password">Password</label>
-                        <input type="password"  name="password" value="" required><br>
-                    </div>
-                    <div class="inp2">
-                        <input type="checkbox">Remember me
-                        <a href="forgotpsd.html">Forgot Password?</a>
-                    </div>
-                    <div class="button">
-                        <input type="submit" value="Sign In">
-                    </div>
-                </form>
+   <div class="container">
+    <h2>Login</h2>
+    <form>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="remember-me" name="remember-me">Remember me
+            <div class="forgot-password">
+               <a href="#">Forgot Password?</a>
             </div>
         </div>
-    </div>
+        <input type="submit" value="Login">
+    </form>
+  </div>
 </body>
 </html>
